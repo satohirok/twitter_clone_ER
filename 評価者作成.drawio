@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="ページ1" id="yBqlEa_KrTjuedP6JeBg">
-    <mxGraphModel>
+    <mxGraphModel dx="890" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-1" value="事業部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fB_c4hwxjE7kTjWemEfV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="309.5" as="sourcePoint" />
+            <mxPoint x="190" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-3" value="承認処理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="fB_c4hwxjE7kTjWemEfV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="309.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-5" value="評価者登録処理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-7" value="評価者設定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="fB_c4hwxjE7kTjWemEfV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="205" as="sourcePoint" />
+            <mxPoint x="200" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-9" value="人事部" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.792;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.067;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fB_c4hwxjE7kTjWemEfV-9" target="fB_c4hwxjE7kTjWemEfV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-11" value="承認" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.717;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fB_c4hwxjE7kTjWemEfV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="430" as="sourcePoint" />
+            <mxPoint x="566" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="566" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-13" value="evaluationテーブル" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="430" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-15" value="usersテーブル" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.792;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fB_c4hwxjE7kTjWemEfV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="393.5" y="350" as="sourcePoint" />
+            <mxPoint x="306.5" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fB_c4hwxjE7kTjWemEfV-18" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=-0.021;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fB_c4hwxjE7kTjWemEfV-13">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="330" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
