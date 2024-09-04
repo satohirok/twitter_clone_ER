@@ -73,14 +73,11 @@
             <mxPoint x="461.5" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cX7yS5dUJwy2zb3N302p-26" value="チーム作成、更新、削除" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="300" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cX7yS5dUJwy2zb3N302p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cX7yS5dUJwy2zb3N302p-26" target="cX7yS5dUJwy2zb3N302p-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cX7yS5dUJwy2zb3N302p-29" value="チーム所属社員設定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="310" width="160" height="80" as="geometry" />
+        <mxCell id="cX7yS5dUJwy2zb3N302p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="600" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
